@@ -36,7 +36,7 @@ const clockAtWork = async (page, d, hS, hF) => {
   await page.locator('id=workAssistanceEditForm:outputOption_label').click();
   await page.waitForTimeout(1000);
   await page.locator('id=workAssistanceEditForm:outputOption_2').click();
-  // await page.locator('id=workAssistanceEditForm:saveWithoutUpdate').click();
+  await page.locator('id=workAssistanceEditForm:saveWithoutUpdate').click();
 };
 
 // start process
