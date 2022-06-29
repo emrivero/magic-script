@@ -3,12 +3,17 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "start": "node index.ts"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.22.2",
-    "moment": "^2.29.3"
+    "dotenv": "^16.0.1",
+    "moment": "^2.29.3",
+    "playwright": "^1.23.0",
+    "prompts": "^2.4.2"
   }
 }
